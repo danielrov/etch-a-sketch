@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after  {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+}
+
+.rows {
+    display: flex;
+    flex: 1;
+}
+
+.square {
+    flex: 1;
+}
