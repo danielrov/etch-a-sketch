@@ -3,7 +3,7 @@ const grid = document.querySelector(".grid");
 
 button.addEventListener("click", () => {
     grid.innerHTML = "";
-    let number = prompt("Hom nay rows and columns?")
+    let number = prompt("Hom many rows and columns?")
     if (number > 100) {
         number = 100
     }

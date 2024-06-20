@@ -32,4 +32,9 @@ html {
 
 .square {
     flex: 1;
+    /* border: 1px solid black; */
+}
+
+.btn {
+    padding: 2px 8px;
 }
